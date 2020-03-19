@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+
+body {
+  margin: auto;
+  margin-top: 0px;
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/criss-cross.png")
+}
+
+.top-container {
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-bottom-color: #cccccc;
+  margin-bottom: 35px
+}
+
+.container-row{
+  width: 1060px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block {
+  background-color: purple;
+  height: 100px;
+  width: 250px;
+  padding-left: 5px;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+h2{
+  line-height: 1.8;
+  color: #8f8f8f;
+}
+
+.tabs {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  line-height: 1.8;
+  color: #8f8f8f;
+  font-weight: 550;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 1.8;
+  color: #8f8f8f;
+  font-weight: 550;
+  padding: 10px 15px;
+  text-decoration: none;
+}    
+
+.link {
+  line-height: 1.8;
+  color: #8f8f8f;
+  font-weight: 550;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2.0;
+  color: #8f8f8f;
+  padding-bottom: 100px;
+}
+
+.contentBody {
+  background: white;
+  border-width: 5px;
+  border-style: solid;
+  border-color: grey;
+  padding: 40px 30px 40px 30px;
+  max-width: 960px;
+  margin: auto;
+}
+
+
+img {
+  padding: 0 20px 20px 0;
+}
+
+.footer {
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 8px solid purple;
+  background-color: #666666;
+  text-align:center;
+}
+/* portfolio */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -10px 20px -10px;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* margin: 0 10px 20px 10px; */
+}
+
+@media(min-width: 480px) {
+
+  .column--mobile {
+      width: calc(50% - 20px);
+  }
+
+}
+
+@media(max-width: 480px) {
+
+  .img-float {
+      float: none;
+  }
+
+}
+
+.project-content-respo {
+  position: relative;
+  /* height: 210px;
+  margin: 0 10px 25px 10px; */
+  display: flex;
+  justify-content: flex-start;
+}
+
+#contentLabel {
+  position: absolute;
+  bottom: 40px;
+  width: 250px;
+  height: 60px;
+  padding: 15px;
+  text-align: center;
+  color:white;
+  background:purple;
+}
+
+/* Contact form */
+
+.group {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input {
+  border: 1px solid #dddddd;
+  /* padding: 5px 0 0 700px; */
+  width: 100%;
+}
+
+
+button {
+  padding: 10px 25px;
+  border-style: none;
+  background-color: #a19f9f;
+  color: white
+}
